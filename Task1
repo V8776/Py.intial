@@ -1,0 +1,28 @@
+# Name : Vanshika_8928776_Task-1.py
+# Author : Vanshika
+# Student ID : 8928776
+# Date created : Feburary 2, 2024
+# Last Modfied : Feburary 2, 2024
+
+# Purpose:
+#
+# This program will get user's input for width and length of a rectangle, in centimeters.
+# It will then calculate and illustrate the result for the area of rectangle in cm^2,
+# and the perimeter of the rectangle in cm.
+
+print("Enter the width of the rectangle (in cm):")  #using print to display prompt to the user
+width = input()  #calling input() function to collect user's input
+width = float(width)  #now we can work with numeric value
+
+print("Enter the length of the rectangle (in cm):")  #using print to display prompt to the user
+length = input()  #calling input() function to collect user's input
+length = float(length)  #now we can work with numeric value
+
+#Multiply the width to the length of rectangle when calculating area of rectangle
+rectangleArea = (width * length)
+#Multiply * 2 to the sum of the width and length of rectangle when calculating perimeter of rectangle
+rectanglePerimeter = 2 * (width + length)
+
+#using the variable with the input user provided in the code. 
+print("The area of rectangle is " + str(rectangleArea) + " cm2.")
+print("The perimeter of rectangle is " + str(rectanglePerimeter) + " cm.")
